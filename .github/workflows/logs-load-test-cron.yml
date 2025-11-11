@@ -3,8 +3,8 @@ name: logs-load-test-cron
 
 on:
   workflow_dispatch:
-#  schedule:
-#    - cron: '*/10 * * * 1-5'
+  schedule:
+    - cron: '*/10 * * * 1-5'
 
 jobs:
   run-job:
